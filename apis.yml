@@ -1,8 +1,28 @@
 aid: monkeytilt
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/monkeytilt.png
 name: MonkeyTilt
-description: 'MonkeyTilt is a company surfaced as a portfolio company of pantera-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting
-  the enrichment pipeline.'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+description: 'MonkeyTilt is a crypto-native online casino and sportsbook where players deposit, wager,
+  and cash out in cryptocurrency across slots, table games, live dealer, and sports betting. The platform
+  rewards play with points, prize drops, and the Tilt Club VIP program (bonuses and merch drops), and
+  is backed by Pantera Capital. MonkeyTilt is a consumer gaming product: it runs an internal application
+  API (disallowed to crawlers in robots.txt) but publishes no public developer program, API documentation,
+  SDKs, or machine-readable API specifications as of this enrichment pass.'
 url: https://raw.githubusercontent.com/api-evangelist/monkeytilt/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Crypto
+- Casino
+- Sportsbook
+- iGaming
+- Gambling
+- Betting
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,17 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/monkeytilt-domain-security.yml
 - type: Website
   url: https://monkeytilt.com/
+- type: Support
+  url: https://monkeytilt.com/support/
+- type: Blog
+  url: https://monkeytilt.com/blog/
+- type: SignUp
+  url: https://monkeytilt.com/register/
+- type: TermsOfService
+  url: https://monkeytilt.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://monkeytilt.com/privacy-policy/
